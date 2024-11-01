@@ -36,5 +36,7 @@ int main()
 	assignedClap.attack("target7");
 	std::cout << std::endl;
 
+	std::cout << "\033[1;34m\n--- Destroying all objects ---\033[0m" << std::endl;
+
 	return 0;
 }
